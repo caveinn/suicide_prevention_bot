@@ -8,7 +8,7 @@ from selenium import webdriver
 from sklearn.feature_extraction.text import HashingVectorizer
 from usefulMethods import vect
 
-driver = webdriver.Chrome("./chromedriver-linux64/chromedriver")
+driver = webdriver.Chrome()
 
 
 def login():
